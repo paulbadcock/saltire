@@ -1,0 +1,78 @@
+.accordion .accordion-container {
+	padding-left: 50px;
+	width: 95%;
+	position: relative;
+	padding-right: 15px;
+	display: block;
+	padding-bottom: 2em;
+	counter-increment: section;
+	margin: 0 0 0 32px;
+	border-left: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+	.accordion .accordion-container {width: 90%;}
+}
+
+.accordion .accordion-container:last-child {
+	border-left: none;
+}
+
+.accordion .accordion-counter {
+	font-weight: bold;
+	position: absolute;
+	left: -30px;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 2px 15px;
+	border-radius: 100%;
+	font-size: 1.5em;
+	margin-left: 8px;
+}
+
+.accordion button {
+	outline: none;
+	border: 0;
+	background-color: white;
+	padding: 0;
+	font-size: 1.5em;
+	text-align: left;
+	color: #0058a4;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline;
+	width: 100%;
+	line-height: 2em;
+}
+
+.accordion button:hover,
+.accordion button:active {
+	background-color: transparent; text-decoration: underline;
+}
+
+.accordion button:hover::after,
+.accordion button:active::after {
+	text-decoration: none;
+}
+
+
+.accordion .accordion__heading button::after {
+    font: normal normal normal 14px/1 FontAwesome;
+	float: right;
+	font-size: 1em;
+	margin:.5em 0 0 0;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+.accordion .accordion__heading button[aria-expanded="false"]::after {
+	content: '\f067'; 
+	text-decoration: none;
+}
+.accordion .accordion__heading button[aria-expanded="true"]::after {
+	content: '\f068';
+	text-decoration: none;
+}
+
+.accordion .group-description {margin-top: -1em;}
