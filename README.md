@@ -11,6 +11,7 @@ hugo new site samplesite
 Now clone this as a submodule
 
 ```shell
+cd samplesite
 git submodule add https://github.com/paulbadcock/saltire.git themes/saltire
 ```
 
