@@ -12,6 +12,7 @@ Now clone this as a submodule
 
 ```shell
 cd samplesite
+git init
 git submodule add https://github.com/paulbadcock/saltire.git themes/saltire
 ```
 
