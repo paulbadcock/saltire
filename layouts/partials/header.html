@@ -1,14 +1,27 @@
-<div id="nav-border" class="container">
-    <nav id="nav" class="nav justify-content-center">
-        {{ range .Site.Menus.main }}
-        <a class="nav-link" href="{{ .URL }}">
-        {{ if .Pre }}
-        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-        {{ $icon }}
-        {{ end }}
-        {{ $text := print .Name | safeHTML }}
-        {{ $text }}
+<header id="header" class="header" role="banner">
+    <div class="container header-container">
+        <a class="logo" href="/">
+            <img class="logo-img" src="https://beta.novascotia.ca/themes/ignition/img/nsvip-en.svg" alt="Province of Nova Scotia">
+            </img>
         </a>
-        {{ end }}
-    </nav>
-</div>
+        <nav id="navigation" class="navigation" role="navigation" aira-label="Main navigation">
+            <ul class="menu">
+                <li class="li">
+                    <a href="one" role="link">
+                        <span>One</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="two">
+                        <span>Two</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="three">
+                        <span>Three</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
