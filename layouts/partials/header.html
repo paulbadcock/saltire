@@ -1,26 +1,26 @@
 <header id="header" class="header" role="banner">
     <div class="container header-container">
-        <a class="logo" href="/">
+        <a class="logo" href="{{ .Site.BaseURL }}">
             <img class="logo-img" src="https://beta.novascotia.ca/themes/ignition/img/nsvip-en.svg" alt="Province of Nova Scotia">
             </img>
         </a>
         <nav id="navigation" class="navigation" role="navigation" aira-label="Main navigation">
             <ul class="menu">
-                <li class="li">
-                    <a href="one" role="link">
-                        <span>One</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="two">
-                        <span>Two</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="three">
-                        <span>Three</span>
-                    </a>
-                </li>
+                {{ range .Site.Menus.main }}
+                    {{ if .HasChildren}}
+                    <li class="li">
+                        <a href="{{ .URL }}" role="link">
+                            <span>{{ .Name }} ddd</span>
+                        </a>
+                    </li>
+                    {{ else }}
+                    <li class="li">
+                        <a href="{{ .URL }}" role="link">
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                {{ end }}
             </ul>
         </nav>
     </div>

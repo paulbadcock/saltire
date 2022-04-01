@@ -1,0 +1,18 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "saltire"
+
+[menu]
+    [[menu.main]]
+        name = 'Home'
+        url = ''
+        weight = -110
+    [[menu.main]]
+        name = 'About'
+        url = '/about'
+        weight = -109
+    [[menu.main]]
+        name = 'Docs'
+        url = '/docs'
+        weight = -108
