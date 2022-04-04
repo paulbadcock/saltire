@@ -21,3 +21,21 @@ activate this theme in hugo's config in the config.toml
 ```shell
 echo theme = \"saltire\" >> config.toml
 ```
+
+To construct a menu, use the following
+
+```toml
+[menu]
+    [[menu.main]]
+        name = 'Home'
+        url = ''
+        weight = -110
+    [[menu.main]]
+        name = 'About'
+        url = '/about'
+        weight = -109
+    [[menu.main]]
+        name = 'Docs'
+        url = '/docs'
+        weight = -108
+```
