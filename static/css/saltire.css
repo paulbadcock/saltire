@@ -3346,10 +3346,10 @@ p + .call-to-action-button {
       background-position: center -30em;
       background-size: auto 148.5em;
       background-repeat: no-repeat;
-      background-image: url(/clf/saltire/img/sprite-icons.svg); }
+      background-image: url(/img/sprite-icons.svg); }
       .no-svg .mobile .mobile-navigation-summary:before {
         background-position: center -30em;
-        background-image: url(/clf/saltire/img/sprite-icons.png); }
+        background-image: url(/img/sprite-icons.png); }
   .mobile .row, .mobile .row ul,
   .mobile .menu__sidebar,
   .mobile .menu__sidebar ul {
@@ -3371,7 +3371,7 @@ p + .call-to-action-button {
     background-position: center -30em;
     background-size: auto 148.5em;
     background-repeat: no-repeat;
-    background-image: url(/clf/saltire/img/sprite-icons.svg); }
+    background-image: url(/img/sprite-icons.svg); }
     .no-svg .mobile .row > li.expanded.expanded.expanded > a:before,
     .no-svg .mobile .menu__sidebar > li.expanded.expanded.expanded > a:before {
       background-position: center -30em;
@@ -3444,11 +3444,11 @@ p + .call-to-action-button {
           background-position: center -36em;
           background-size: auto 148.5em;
           background-repeat: no-repeat;
-          background-image: url(/clf/saltire/img/sprite-icons.svg); }
+          background-image: url(/img/sprite-icons.svg); }
           .no-svg .mobile .row li ul li .btn-back:before,
           .no-svg .mobile .menu__sidebar li ul li .btn-back:before {
             background-position: center -36em;
-            background-image: url(/clf/saltire/img/sprite-icons.png); }
+            background-image: url(/img/sprite-icons.png); }
   .mobile .menu__first-of-type > li {
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -3533,10 +3533,10 @@ p + .call-to-action-button {
       background-position: center -30em;
       background-size: auto 148.5em;
       background-repeat: no-repeat;
-      background-image: url(/clf/saltire/img/sprite-icons.svg); }
+      background-image: url(/img/sprite-icons.svg); }
       .no-svg .mobile .menu__sidebar > li > .active-trail:before, .no-svg .mobile .menu__sidebar > li:first-of-type > .active-trail:before {
         background-position: center -30em;
-        background-image: url(/clf/saltire/img/sprite-icons.png); }
+        background-image: url(/img/sprite-icons.png); }
 
 .nav--is-open__submenu div > ul > li:after {
   content: '';
@@ -3599,10 +3599,10 @@ p + .call-to-action-button {
     background-position: center 0;
     background-size: auto 148.5em;
     background-repeat: no-repeat;
-    background-image: url(/clf/saltire/img/sprite-icons.svg); }
+    background-image: url(/img/sprite-icons.svg); }
     .no-svg #mobile-trigger:after {
       background-position: center 0;
-      background-image: url(/clf/saltire/img/sprite-icons.png); }
+      background-image: url(/img/sprite-icons.png); }
   #mobile-trigger.add-search-icon {
     width: 5.5em; }
     #mobile-trigger.add-search-icon:before {
@@ -3616,10 +3616,10 @@ p + .call-to-action-button {
       background-position: center -3em;
       background-size: auto 148.5em;
       background-repeat: no-repeat;
-      background-image: url(/clf/saltire/img/sprite-icons.svg); }
+      background-image: url(/img/sprite-icons.svg); }
       .no-svg #mobile-trigger.add-search-icon:before {
         background-position: center -3em;
-        background-image: url(/clf/saltire/img/sprite-icons.png); }
+        background-image: url(/img/sprite-icons.png); }
 
 #mobile-close {
   position: absolute;
@@ -3630,12 +3630,12 @@ p + .call-to-action-button {
   background-position: center -6em;
   background-size: auto 148.5em;
   background-repeat: no-repeat;
-  background-image: url(/clf/saltire/img/sprite-icons.svg);
+  background-image: url(/img/sprite-icons.svg);
   background-color: transparent;
   opacity: .8; }
   .no-svg #mobile-close {
     background-position: center -6em;
-    background-image: url(/clf/saltire/img/sprite-icons.png); }
+    background-image: url(/img/sprite-icons.png); }
 
 #mobile-close-body-area {
   position: fixed;
@@ -3883,7 +3883,7 @@ footer,
       display: inline;
       margin-right: 1em; }
   .footer.beta {
-    background: #0058a4 url(https://beta.novascotia.ca/themes/ignition/img/bg-footer.svg) bottom/100% fixed no-repeat; }
+    background: #0058a4 url(/img/bg-footer.svg) bottom/100% fixed no-repeat; }
   .footer.ribbon, .footer.ribbon-xs, .footer.ribbon-sm, .footer.ribbon-md {
     padding: 1.6875em 0; }
     .footer.ribbon .container, .footer.ribbon-xs .container, .footer.ribbon-sm .container, .footer.ribbon-md .container {
@@ -3940,13 +3940,13 @@ footer,
     background-position: center -3em;
     background-size: auto 148.5em;
     background-repeat: no-repeat;
-    background-image: url(/clf/saltire/img/sprite-icons.svg);
+    background-image: url(/img/sprite-icons.svg);
     -webkit-transition: background-color 0.2s;
     -o-transition: background-color 0.2s;
     transition: background-color 0.2s; }
     .no-svg .search-box-button {
       background-position: center -3em;
-      background-image: url(/clf/saltire/img/sprite-icons.png); }
+      background-image: url(/img/sprite-icons.png); }
     .search-box-button:hover, .search-box-button:active, .search-box-button:focus {
       background-color: #004a8b;
       overflow: hidden; }
@@ -4019,22 +4019,22 @@ footer,
     background-position: center -42em;
     background-size: auto 148.5em;
     background-repeat: no-repeat;
-    background-image: url(/clf/saltire/img/sprite-icons.svg); }
+    background-image: url(/img/sprite-icons.svg); }
     .no-svg .sidebar_first li.collapsed a:after,
     .no-svg .sidebar li.collapsed a:after {
       background-position: center -42em;
-      background-image: url(/clf/saltire/img/sprite-icons.png); }
+      background-image: url(/img/sprite-icons.png); }
   .sidebar_first li.collapsed a:focus:after, .sidebar_first li.collapsed a:active:after, .sidebar_first li.collapsed a:hover:after, .sidebar li.collapsed a:focus:after, .sidebar li.collapsed a:active:after, .sidebar li.collapsed a:hover:after {
     background-position: center -18em;
     background-size: auto 148.5em;
     background-repeat: no-repeat;
-    background-image: url(/clf/saltire/img/sprite-icons.svg); }
+    background-image: url(/img/sprite-icons.svg); }
     .no-svg .sidebar_first li.collapsed a:focus:after, .no-svg .sidebar_first li.collapsed a:active:after, .no-svg .sidebar_first li.collapsed a:hover:after,
     .no-svg .sidebar li.collapsed a:focus:after,
     .no-svg .sidebar li.collapsed a:active:after,
     .no-svg .sidebar li.collapsed a:hover:after {
       background-position: center -18em;
-      background-image: url(/clf/saltire/img/sprite-icons.png); }
+      background-image: url(/img/sprite-icons.png); }
   .sidebar_first li.expanded > a:before, .sidebar li.expanded > a:before {
     content: '';
     position: absolute;
@@ -4046,11 +4046,11 @@ footer,
     background-position: center -33em;
     background-size: auto 148.5em;
     background-repeat: no-repeat;
-    background-image: url(/clf/saltire/img/sprite-icons.svg); }
+    background-image: url(/img/sprite-icons.svg); }
     .no-svg .sidebar_first li.expanded > a:before,
     .no-svg .sidebar li.expanded > a:before {
       background-position: center -33em;
-      background-image: url(/clf/saltire/img/sprite-icons.png); }
+      background-image: url(/img/sprite-icons.png); }
   .sidebar_first a,
   .sidebar a {
     float: left;
@@ -4930,7 +4930,7 @@ ul.icon-list {
     float: right;
     margin: 5px 0; }
   .ribbon .search-box-button, .ribbon-xs .search-box-button, .ribbon-sm .search-box-button, .ribbon-md .search-box-button {
-    background-image: url(https://novascotia.ca/clf/saltire/img/sprite-icons.svg);
+    background-image: url(/img/sprite-icons.svg);
     background-color: transparent; }
 
 /*
@@ -5518,7 +5518,7 @@ ul.icon-list {
   float: left;
   width: 13em; }
 .ie .header {
-  background-image: url(/clf/saltire/img/bg-header.png);
+  background-image: url(/img/bg-header.png);
   background-position: -200% 55%;
   background-repeat: no-repeat; }
   .ie .header:after {
