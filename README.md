@@ -1,4 +1,4 @@
-# saltire
+# saltire - hugo theme
 
 ## How to use
 
