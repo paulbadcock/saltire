@@ -1,6 +1,6 @@
 # saltire - hugo theme
 
-![sample screenshot](https://raw.githubusercontent.com/paulbadcock/saltire/main/static/img/sample-page.png "Screenshot")
+![sample screenshot](https://raw.githubusercontent.com/paulbadcock/saltire/main/static/img/sample-page.png "Screenshot" =250x250)
 
 
 ## How to use
