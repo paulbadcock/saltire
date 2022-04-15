@@ -1,5 +1,8 @@
 # saltire - hugo theme
 
+![sample screenshot](https://raw.githubusercontent.com/paulbadcock/saltire/main/static/img/sample-page.png "Screenshot")
+
+
 ## How to use
 
 Create a new site
